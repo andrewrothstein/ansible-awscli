@@ -1,27 +1,25 @@
----
+dependencies:
+- role: andrewrothstein.bash
+  version: v1.1.3
 galaxy_info:
   author: Andrew Rothstein
-  description: installs awscli
   company: PointState Capital
+  description: installs awscli
+  galaxy_tags:
+  - development
   license:
-    - MIT
+  - MIT
   min_ansible_version: 2.0
   platforms:
-    - name: EL
-      versions:
-        - all
-    - name: Fedora
-      versions:
-        - all
-    - name: Ubuntu
-      versions:
-        - all
-    - name: Debian
-      versions:
-        - jessie
-  galaxy_tags:
-    - development
-
-dependencies:
-  - src: andrewrothstein.bash
-    version: v1.1.1
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - jessie
