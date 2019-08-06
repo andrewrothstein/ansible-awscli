@@ -22,4 +22,6 @@ galaxy_info:
     - all
   - name: Debian
     versions:
+    - buster
     - jessie
+    - stretch
