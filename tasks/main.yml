@@ -1,8 +1,2 @@
 ---
-- name: install pkgs...
-  become: yes
-  become_user: root
-  package:
-    name:
-    - awscli
-    state: present
+

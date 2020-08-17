@@ -1,16 +1,26 @@
 dependencies:
-- role: andrewrothstein.bash
-  version: v1.1.6
+- role: andrewrothstein.gcc-toolbox
+  version: v1.1.0
+- role: andrewrothstein.conda-env
+  conda_env_environment: awscli-environment.yml
+  conda_env_name: awscli
+  version: v2.1.3
 galaxy_info:
   author: Andrew Rothstein
   company: PointState Capital
-  description: installs awscli
+  description: installs awscli into conda env
   galaxy_tags:
   - development
   license:
   - MIT
   min_ansible_version: 2.0
   platforms:
+  - name: Alpine
+    versions:
+    - all
+  - name: Archlinux
+    versions:
+    - all
   - name: Debian
     versions:
     - buster
@@ -23,12 +33,12 @@ galaxy_info:
     versions:
     - 31
     - 32
+  - name: Gentoo
+    versions:
+    - all
   - name: Ubuntu
     versions:
     - bionic
     - focal
     - xenial
-  - name: Debian
-    versions:
-    - buster
-    - stretch
+  role_name: awscli

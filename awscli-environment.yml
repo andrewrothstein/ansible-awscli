@@ -1,0 +1,7 @@
+---
+channels:
+  - conda-forge
+dependencies:
+  - python={{ awscli_python_ver }}
+  - pip:
+      - awscli=={{ awscli_ver }}
