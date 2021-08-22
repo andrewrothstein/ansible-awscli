@@ -1,6 +1,6 @@
 andrewrothstein.awscli
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-awscli.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-awscli)
+![Build Status](https://github.com/andrewrothstein/ansible-awscli/actions/workflows/build.yml/badge.svg)
 
 Installs the Amazon AWS [cli](https://aws.amazon.com/cli/).
 
