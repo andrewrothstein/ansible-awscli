@@ -1,4 +1,4 @@
 ---
 # defaults file for awscli
-awscli_python_ver: '3.8'
-awscli_ver: 1.20.26
+awscli_python_ver: '3.10'
+awscli_ver: 1.22.87
